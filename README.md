@@ -5,7 +5,15 @@
 
 ---
 
-## 📂 仓库目录结构
+## 📑 已收录算法索引 (Curated Algorithms Index)
+
+| 编号 | 算法名称 | 核心分类 | 关键解决问题 | 论文出处 | 卡片直达 |
+| :---: | :--- | :--- | :--- | :---: | :--- |
+| **001** | **[TFActProfiler](transcriptomics/TFActProfiler.md)** | 单细胞转录组 / 基因调控网络 / 扰动生物学 | 260万带符号先验的 TF 活性推断、免训练扰动响应预测、单细胞残差置信度质控 | *NAR 2026* | [👉 点击阅读卡片](transcriptomics/TFActProfiler.md) |
+
+---
+
+## 📂 仓库分类体系
 
 ```text
 algo-vault/
@@ -14,9 +22,10 @@ algo-vault/
 │   └── algorithm_card_template.md # 算法知识卡片标准化模板
 ├── tools/
 │   └── search_vault.py            # 本地极简语义检索工具（支持 Agent 调用）
+├── examples/
+│   └── demo_quickstart.py         # 端到端快速上手脚本
 │
-├── transcriptomics/               # 单细胞 / Bulk 转录组算法
-│   └── TFActProfiler.md           # [001] 260万带符号先验的 TF 活性与扰动预测
+├── transcriptomics/               # 单细胞 / Bulk 转录组算法 (已收录: TFActProfiler)
 ├── spatial_omics/                 # 空间转录组 / 空间多组学 (Visium, MERFISH, Xenium)
 ├── multi_omics/                   # 多模态整合 (scRNA + scATAC, CITE-seq)
 ├── epigenomics/                   # 表观遗传与染色质 (scATAC, Hi-C, 甲基化)
@@ -41,7 +50,7 @@ python3 tools/search_vault.py
 
 # 按生物学任务/关键词检索
 python3 tools/search_vault.py "转录因子"
-python3 tools/search_vault.py "空间去卷积"
+python3 tools/search_vault.py "扰动预测"
 
 # 输出 JSON 格式（供脚本流水线或自动化 Agent 消费）
 python3 tools/search_vault.py --json

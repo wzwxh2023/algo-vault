@@ -10,6 +10,7 @@
 | 编号 | 算法名称 | 核心分类 | 关键解决问题 | 论文出处 | 卡片直达 |
 | :---: | :--- | :--- | :--- | :---: | :--- |
 | **001** | **[TFActProfiler](transcriptomics/TFActProfiler.md)** | 单细胞转录组 / 基因调控网络 / 扰动生物学 | 260万带符号先验的 TF 活性推断、免训练扰动响应预测、单细胞残差置信度质控 | *NAR 2026* | [👉 点击阅读卡片](transcriptomics/TFActProfiler.md) |
+| **002** | **[scTFA-Benchmark](transcriptomics/scTFA_Benchmark.md)** | 单细胞转录组 / 调控网络 / 基准评测 | 基于大规模 Perturb-seq 扰动金标准的 8 种 TFA 算法权威横评与选型指南 (含 metaTF / decoupleR / pySCENIC) | *Brief Bioinform 2026* | [👉 点击阅读卡片](transcriptomics/scTFA_Benchmark.md) |
 
 ---
 
@@ -25,7 +26,7 @@ algo-vault/
 ├── examples/
 │   └── demo_quickstart.py         # 端到端快速上手脚本
 │
-├── transcriptomics/               # 单细胞 / Bulk 转录组算法 (已收录: TFActProfiler)
+├── transcriptomics/               # 单细胞 / Bulk 转录组算法 (已收录: TFActProfiler, scTFA-Benchmark)
 ├── spatial_omics/                 # 空间转录组 / 空间多组学 (Visium, MERFISH, Xenium)
 ├── multi_omics/                   # 多模态整合 (scRNA + scATAC, CITE-seq)
 ├── epigenomics/                   # 表观遗传与染色质 (scATAC, Hi-C, 甲基化)

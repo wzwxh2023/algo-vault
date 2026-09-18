@@ -11,6 +11,7 @@
 | :---: | :--- | :--- | :--- | :---: | :--- |
 | **001** | **[TFActProfiler](transcriptomics/TFActProfiler.md)** | 单细胞转录组 / 基因调控网络 / 扰动生物学 | 260万带符号先验的 TF 活性推断、免训练扰动响应预测、单细胞残差置信度质控 | *NAR 2026* | [👉 点击阅读卡片](transcriptomics/TFActProfiler.md) |
 | **002** | **[scTFA-Benchmark](transcriptomics/scTFA_Benchmark.md)** | 单细胞转录组 / 调控网络 / 基准评测 | 基于大规模 Perturb-seq 扰动金标准的 8 种 TFA 算法权威横评与选型指南 (含 metaTF / decoupleR / pySCENIC) | *Brief Bioinform 2026* | [👉 点击阅读卡片](transcriptomics/scTFA_Benchmark.md) |
+| **003** | **[MAPA](multi_omics/MAPA.md)** | 多模态整合 / 多组学通路分析 / LLM智能体 | 基于生物文本嵌入与 PubMed RAG 的多组学功能模块发现与无幻觉自动化机制解读 | *Advanced Science 2026* | [👉 点击阅读卡片](multi_omics/MAPA.md) |
 
 ---
 
@@ -28,7 +29,7 @@ algo-vault/
 │
 ├── transcriptomics/               # 单细胞 / Bulk 转录组算法 (已收录: TFActProfiler, scTFA-Benchmark)
 ├── spatial_omics/                 # 空间转录组 / 空间多组学 (Visium, MERFISH, Xenium)
-├── multi_omics/                   # 多模态整合 (scRNA + scATAC, CITE-seq)
+├── multi_omics/                   # 多模态整合 (scRNA + scATAC, CITE-seq, 已收录: MAPA)
 ├── epigenomics/                   # 表观遗传与染色质 (scATAC, Hi-C, 甲基化)
 ├── proteomics_metabolomics/       # 单细胞质谱、蛋白质组与代谢组
 └── foundation_models/             # 生物学基础大模型与 AI4Science Agent

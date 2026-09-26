@@ -13,6 +13,7 @@
 | **002** | **[scTFA-Benchmark](transcriptomics/scTFA_Benchmark.md)** | 单细胞转录组 / 调控网络 / 基准评测 | 基于大规模 Perturb-seq 扰动金标准的 8 种 TFA 算法权威横评与选型指南 (含 metaTF / decoupleR / pySCENIC) | *Brief Bioinform 2026* | [👉 点击阅读卡片](transcriptomics/scTFA_Benchmark.md) |
 | **003** | **[MAPA](multi_omics/MAPA.md)** | 多模态整合 / 多组学通路分析 / LLM智能体 | 基于生物文本嵌入与 PubMed RAG 的多组学功能模块发现与无幻觉自动化机制解读 | *Advanced Science 2026* | [👉 点击阅读卡片](multi_omics/MAPA.md) |
 | **004** | **[RADAR](foundation_models/RADAR.md)** | 基础大模型 / 医疗多模态AI / 3D医学影像 | 浙大一院与阿里达摩院 42.5万例全腹部 CT 专家级通用影像大模型，覆盖 18 个器官与 146 种病征 | *Science 2026* | [👉 点击阅读卡片](foundation_models/RADAR.md) |
+| **005** | **[BioNeMo Structure Prediction Pipeline](foundation_models/BioNeMo_Structure_Prediction_Pipeline.md)** | 结构生物学 / 蛋白质 3D 结构预测 / AI4Science 基础设施 | NVIDIA 开源的大规模序列→复合物结构流水线（bsppctl + OpenFold2/AF2-Multimer + BioNeMo Runtime），千级至百万级靶点的 MSA 构建、折叠与界面质控编排 | *NVIDIA 开源 2026* | [👉 点击阅读卡片](foundation_models/BioNeMo_Structure_Prediction_Pipeline.md) |
 
 ---
 
@@ -33,7 +34,7 @@ algo-vault/
 ├── multi_omics/                   # 多模态整合 (scRNA + scATAC, CITE-seq, 已收录: MAPA)
 ├── epigenomics/                   # 表观遗传与染色质 (scATAC, Hi-C, 甲基化)
 ├── proteomics_metabolomics/       # 单细胞质谱、蛋白质组与代谢组
-└── foundation_models/             # 生物学基础大模型与 AI4Science Agent (已收录: RADAR)
+└── foundation_models/             # 生物学基础大模型与 AI4Science Agent (已收录: RADAR, BioNeMo Structure Prediction Pipeline)
 ```
 
 ---
